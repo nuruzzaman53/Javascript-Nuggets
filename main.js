@@ -7,11 +7,11 @@ const people = [
   { name: "sharif", age: 25, job: "developer", salary: 500 },
 ];
 
-const jobFinder = people.map((person) => {
+const jobFind = people.map((person) => {
   return person.job;
 });
 
-console.log(jobFinder);
+console.log(jobFind);
 
 // filter function //
 
